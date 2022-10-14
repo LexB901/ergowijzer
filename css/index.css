@@ -1,0 +1,589 @@
+/* Width 445px */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    font-size: 1.1em;
+    font-family: Raleway;
+    font-weight: 700;
+    overflow-x: hidden;
+}
+
+body {
+    position: relative;
+    overflow-x: hidden;
+}
+
+.container {
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .title {
+    width: 45%;
+    border-bottom: grey 1px solid;
+}
+.header .title p{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.tekst {
+    font-weight: 300;
+    padding: 20px 30px;
+    word-wrap: break-word;
+}
+
+.titel {
+    font-size: 1.2em;
+    padding: 10px 30px;
+    font-weight: 800;
+}
+
+/* Header */
+
+#header .logo img {
+    display: inline-block;
+    margin: -40px 0 0 -100px;
+    
+    transform: scale(0.6);
+}
+#header .links {
+    display: none;
+}
+#header .links img {
+    height: 80px;
+    width: 80px;
+}
+
+/* Hamburger menu */
+.navbar #hamburgerMenu{
+    display: none;
+}
+.navbar .hamburger a{
+    color: black;
+    background-color: transparent;
+    padding: 14px 16px;
+    font-size: 17px;
+    display: block;
+} 
+.navbar .hamburger span a{
+    margin-bottom: 10%;
+}
+.navbar .hamburger a p{
+    color: black;
+    text-align: center;
+    font-size: 1.3rem;
+    text-decoration: underline;
+}
+.navbar a.icon{
+    background-color: transparent;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+/* Einde hamburger menu */
+/* Einde Header */
+
+/* Home */
+
+#home .figuur1 {
+    position: absolute;
+    height: 50vh;
+    width: 100%;
+    transform: skewY(-10deg);
+
+    background-color: #253237;
+}
+#home .figuur2 {
+    position: absolute;
+    height: 40vh;
+    width: 100%;
+    transform: skewY(-10deg);
+    margin: 10vh 0 0 0;
+
+    background-color: #5C6B73;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#home .figuur3 {
+    position: absolute;
+    height: 8vh;
+    width: 100%;
+    transform: skewY(-10deg);
+    margin: 50vh 0 0 0;
+
+    background-color: #52a8d6;
+}
+#home .figuur4 {
+    position: absolute;
+    height: 5vh;
+    width: 100%;
+    transform: skewY(-10deg);
+    margin: 58vh 0 0 0;
+
+    background-color: #009FC8;
+}
+#home video {
+    transform: skewY(10deg);
+    
+    height: 25vh;
+    width: 65vw;
+}
+#home .text {
+    transform: skewY(10deg);
+    color: white;
+    margin: 2vh 0 0 0;
+}
+
+/* Einde Home */
+
+/* Introductie */
+
+#introductie .header .figuur {
+    z-index: -1;
+    position: absolute;
+    right: 0;
+}
+#introductie .header .figuur img {
+    height: 20vh;
+    width: 45vw;
+   
+    margin: 0 0 5vh 50vw;
+}
+#introductie .items {
+    margin: 50px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#introductie .items #vierkant {
+    margin: 25px 0 0 0;
+    height: auto;
+    width: 325px;
+    border-radius: 30px;
+}
+#introductie .items .blok1 {
+    background-color: #E5E6E4;
+}
+#introductie .items .blok2 {
+    background-color: #CFD2CD;
+}
+#introductie .items .blok3 {
+    background-color: #A6A2A2;
+}
+#introductie .items .blok4 {
+    background-color: #847577;
+}
+#introductie .foot .figuur {
+    z-index: -1;
+    position: absolute;
+}
+#introductie .foot .figuur img {
+    height: 20vh;
+    width: 45vw;
+}
+
+/* Einde Introductie */
+
+/* Werkhouding */
+
+#werkhouding {
+    margin-top: 40vh;
+}
+#werkhouding img {
+    transform: scale(0.3);
+}
+#werkhouding .links {
+    left: 0;
+    margin-left: 20px;
+}
+#werkhouding .rechts {
+    right: 0;
+}
+#werkhouding .header .title {
+    margin: 0 -50px 0 -50px;
+}
+#werkhouding .items {
+    margin-top: -3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#werkhouding .items .item1 {
+    height: auto;
+    width: 330px;
+    background-color: #E0FBFC;
+    border-radius: 30px;
+    margin-bottom: 5vh;
+}
+#werkhouding .items .item2 {
+    height: auto;
+    width: 325px;
+    background-color: #C2DFE3;
+    border-radius: 30px;
+    margin-bottom: 5vh;
+}
+#werkhouding .items .item3 {
+    height: auto;
+    width: 325px;
+    background-color: #9DB4C0;
+    border-radius: 30px;
+    margin-bottom: 5vh;
+}
+#werkhouding .items .title {
+    padding: 10px 0 0 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 5vh;
+}
+#werkhouding .items .tekst {
+    padding: 20px 15px;
+}
+#werkhouding #stappen{
+    margin-top: -10px;
+    padding: 0 10px;
+    font-weight: 300;
+}
+
+/* Einde Werkhouding */
+
+/* Werkplek */
+
+#werkplek .header {
+    margin-top: 10vh;
+}
+#werkplek .vak {
+    margin-top: 5vh;
+}
+#werkplek .figuur {
+    position: absolute;
+    height: 50vh;
+    width: 100%;
+
+    background-color: #A6A2A2;
+}
+#werkplek img {
+    position: absolute;
+    margin: 5vh 0 0 0;
+    height: 40vh;
+    width: 100%;
+}
+#werkplek .bolletje {
+    position: absolute;
+    background-color: red;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Positionering bolletjes */
+
+#werkplek .bolletjes #een {
+    margin: 60px 0 0 70px;
+}
+#werkplek .bolletjes #twee {
+    margin: 190px 0 0 90px;
+}
+#werkplek .bolletjes #drie {
+    margin: 140px 0 0 230px;
+}
+#werkplek .bolletjes #vier {
+    margin: 170px 0 0 275px;
+}
+#werkplek .bolletjes #vijf {
+    margin: 135px 0 0 295px;
+}
+
+
+/* Einde Positionering bolletjes */
+
+#werkplek .textbox {
+    margin-top: 75vh;
+}
+
+/* Einde Werkplek */
+
+/* Werkorganisatie */
+
+#werkorganisatie {
+    margin-top: 30vh;
+}
+#werkorganisatie .items {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#werkorganisatie .items .item1 {
+    height: auto;
+    width: 325px;
+    background-color: #E0FBFC;
+    border-radius: 30px;
+    margin-bottom: 5vh;
+}
+#werkorganisatie .items .item2 {
+    height: auto;
+    width: 325px;
+    background-color: #C2DFE3;
+    border-radius: 30px;
+    margin-bottom: 5vh;
+}
+#werkorganisatie .items .item3 {
+    height: auto;
+    width: 325px;
+    background-color: #9DB4C0;
+    border-radius: 30px;
+    margin-bottom: 5vh;
+}
+#werkorganisatie .items .item3 .bottom-image img{
+    height: 70%;
+    width: 70%;
+    margin-top: 10px;
+    display: block;
+    margin: 0 auto;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+#werkorganisatie .items .title {
+    padding: 10px 0 0 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 5vh;
+}
+
+/* Einde Werkorganisatie */
+
+/* Footer */
+
+#footer .footer {
+    margin-top: 10vh;
+    text-align: center;
+}
+
+/* Einde Footer */
+
+
+
+
+/* Ipad */
+
+@media only screen and (min-width:768px) {
+
+    /* Home */
+
+    #home video {
+        width: 45vw;
+    }
+    #home .text {
+        font-size: 22px;
+    }
+
+    /* Einde Home */
+
+    /* Introductie */
+
+    #introductie .items #vierkant {
+        width: 600px;
+    }
+
+    /* Einde Introductie */
+
+    /* Werkhouding */
+
+    #werkhouding img {
+        transform: scale(0.5);
+    }
+    #werkhouding .items .item1, #werkhouding .items .item2, #werkhouding .items .item3 {
+        width: 650px;
+    }
+
+    /* Einde werkhouding */
+
+    /* werkplek */
+    
+    /* Positionering bolletjes */
+
+    #werkplek .bolletjes #een {
+        margin: 95px 0 0 180px;
+    }
+    #werkplek .bolletjes #twee {
+        margin: 270px 0 0 170px;
+    }
+    #werkplek .bolletjes #drie {
+        margin: 175px 0 0 375px;
+    }
+    #werkplek .bolletjes #vier {
+        margin: 205px 0 0 435px;
+    }
+    #werkplek .bolletjes #vijf {
+        margin: 170px 0 0 495px;
+    }
+    /* Einde werkplek */
+
+    /* Werkorganisatie */
+
+    #werkorganisatie .items .item1, #werkorganisatie .items .item2, #werkorganisatie .items .item3 {
+        width: 650px;
+    }
+
+    /* Einde Werkorganisatie */
+}
+
+/* Einde Ipad */
+
+
+/* Desktop */
+
+@media only screen and (min-width:1200px) {
+
+    /* Header */
+
+    #header {
+        z-index: 999999;
+        position: fixed;
+        width: 100%;
+        padding-bottom: 100px;
+    }
+    #header .navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+    #header .links {
+        display: block;
+    }
+    
+    /* Hamburger menu */
+    .navbar .hamburger .icon{
+        pointer-events: none;
+    }
+    .navbar .hamburger{
+        display: none;
+    }
+    /* Einde hamburger menu */
+    /* Einde Header */
+
+    /* Home */
+
+    #home {
+        margin-top: 200px;
+    }
+    #home video {
+        width: 30vw;
+    }
+    #home .text {
+        font-size: 22px;
+    }
+
+    /* Einde Home */
+
+    /* Introductie */
+
+    #introductie .header .figuur img {
+        height: 30vh;
+        width: 25vw;
+    }
+    #introductie .items {
+        flex-direction: row;
+        gap: 20px;
+    }
+    #introductie .deel2 {
+        margin-top: -30px;
+    }
+    #introductie .items #vierkant {
+        width: 450px;
+    }
+    #introductie .foot .figuur img {
+        height: 30vh;
+        width: 25vw;
+    }
+
+    /* Einde Introductie */
+
+    /* Werkhouding */
+
+    #werkhouding img {
+        transform: scale(0.8);
+    }
+    #werkhouding .items .item1, #werkhouding .items .item2, #werkhouding .items .item3 {
+        width: 820px;
+    }
+
+    /* Einde werkhouding */
+
+    /* Werkplek */
+
+    #werkplek .figuur {
+        position: absolute;
+        height: 80vh;
+    }
+    #werkplek img {
+        height: 70vh;
+    }
+    #werkplek .textbox {
+        margin-top: 100vh;
+    }
+    #werkplek #een-tekst #twee-tekst #drie-tekst #vier-tekst #vijf-tekst #zes-tekst  {
+        display: none;
+        width: 25%;
+        margin: 250 0 0 90px;
+    }
+    #werkplek .tekst-bolletjes {
+        float: right;
+        width: 55%;
+        margin-top: -135px;
+        height: 40vh;
+        overflow-y: scroll;
+    }
+    #werkplek .bolletje:hover {
+        background-color: rgb(161, 12, 12);
+        border: 1px solid black;
+    }
+
+    /* Positionering bolletjes */
+
+    #werkplek .bolletjes #een {
+        margin: 105px 0 0 230px;
+    }
+    #werkplek .bolletjes #twee {
+        margin: 365px 0 0 265px;
+    }
+    #werkplek .bolletjes #drie {
+        margin: 250px 0 0 745px;
+    }
+    #werkplek .bolletjes #vier {
+        margin: 285px 0 0 880px;
+    }
+    #werkplek .bolletjes #vijf {
+        margin: 230px 0 0 930px;
+
+    }
+
+    /* Einde Werkplek */
+
+    /* Werkorganisatie */
+
+    #werkorganisatie .items .item1, #werkorganisatie .items .item2, #werkorganisatie .items .item3 {
+        width: 820px;
+    }
+
+    /* Einde Werkorganisatie */
+}
+
+/* Einde Desktop */
